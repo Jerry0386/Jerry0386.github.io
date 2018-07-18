@@ -1,0 +1,61 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+
+}
+
+body {
+	background-image: url(images/background.jpg);
+	background-size: cover;	
+}
+
+.textbox {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 50%;	
+}
+
+.text {
+	color: white;
+	text-align: center;
+	font-size: 1.6em;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20px;
+}
+
+.button-box {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	height: 50%;
+}
+
+.button {
+	background-color: rgba(0, 0, 255, .6);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    outline: none;
+}
+
+.button:hover {
+	transform: scale(1.2);
+	transition: 1s;
+	background-color: blue;
+}
+
+.button:visited {
+	outline: none;
+}
+
